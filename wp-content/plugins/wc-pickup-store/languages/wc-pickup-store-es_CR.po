@@ -1,0 +1,291 @@
+msgid ""
+msgstr ""
+"Project-Id-Version: \n"
+"POT-Creation-Date: \n"
+"PO-Revision-Date: \n"
+"Language-Team: \n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"X-Generator: Poedit 2.2\n"
+"Last-Translator: \n"
+"Plural-Forms: nplurals=2; plural=(n != 1);\n"
+"Language: es_CR\n"
+
+#: wc-pickup-store.php:34
+msgid "%s requires %sWooCommerce%s to be active."
+msgstr "%s requiere %sWooCommerce%s para estar activo."
+
+#: includes/wps-init.php:26
+msgid "Lets users to choose a store to pick up their products"
+msgstr "Permite a los usuarios elegir una tienda para recoger sus productos"
+
+#: includes/wps-init.php:63
+msgid "Enable/Disable shipping method"
+msgstr "Activar/Desactivar método de envío"
+
+#: includes/wps-init.php:67
+msgid "Enable stores in Checkout"
+msgstr "Activar tiendas en Checkout"
+
+#: includes/wps-init.php:71
+msgid "Shows select field to pick a store in Checkout"
+msgstr "Muestra desplegable para elegir tienda en el Checkout"
+
+#: includes/wps-init.php:75
+msgid "Shipping Method Title"
+msgstr "Título de Método de envío"
+
+#: includes/wps-init.php:77
+msgid "Label that appears in Checkout options"
+msgstr "Etiqueta a mostrar en las opciones del Checkout"
+
+#: includes/wps-init.php:82
+msgid "Shipping Costs"
+msgstr "Costos de envío"
+
+#: includes/wps-init.php:84
+msgid "Adds shipping cost to store pickup"
+msgstr "Agrega costos de envío a tienda"
+
+#: includes/wps-init.php:90
+msgid "Enable costs per store"
+msgstr "Activar costos por tienda"
+
+#: includes/wps-init.php:94
+msgid "Allows to add shipping costs by store. Checking this will disable main shipping price."
+msgstr "Permite añadir costes de envío por tienda. Marcando esta opción deshabilitará el precio de envío principal."
+
+#: includes/wps-init.php:99
+msgid "Choose a default store to Checkout"
+msgstr "Escoja una tienda predeterminada para el Checkout"
+
+#: includes/wps-init.php:103
+msgid "Checkout notification"
+msgstr "Notificación del Checkout"
+
+#: includes/wps-init.php:105
+msgid "Message that appears next to shipping options in Checkout page"
+msgstr "Mensaje a mostrarse seguido a las opciones de envío en el Checkout"
+
+#: includes/wps-init.php:133
+msgid "Find this option in <a href=\"%s\" target=\"_blank\">the Customizer</a>"
+msgstr "Encuentre esta opción en <a href=\"%s\" target=\"_blank\">Personalizar</a>"
+
+#: includes/wps-init.php:107 includes/wps-admin.php:132
+msgid "Pickup Store"
+msgstr "Recoger en Tienda"
+
+#: includes/wps-admin.php:7
+msgid "None"
+msgstr "Ninguna"
+
+#: includes/wps-init.php:130 includes/wps-admin.php:12
+msgid "Default store"
+msgstr "Tienda predeterminada"
+
+#: includes/wps-admin.php:27
+msgid "Choose a default store"
+msgstr "Escoja una tienda predeterminada"
+
+#: includes/wps-admin.php:92 includes/wps-admin.php:106
+msgid "Settings"
+msgstr "Ajustes"
+
+#: includes/wps-admin.php:117
+msgid "You must either choose a store or use other shipping method"
+msgstr "Debe elegir una tienda o utilizar otro método de envío"
+
+#: includes/wps-admin.php:131
+msgid "No store selected"
+msgstr "Ninguna tienda seleccionada"
+
+#: includes/wps-functions.php:14
+msgid "There are not available stores. Please choose another shipping method."
+msgstr "No hay tiendas disponibles. Por favor escoja otro método de envío."
+
+#: includes/wps-functions.php:43
+msgid "Local pickup"
+msgstr "Recoger en Tienda"
+
+#: includes/wps-functions.php:47
+msgid "Select a store"
+msgstr "Seleccione una tienda"
+
+#: includes/post_type-store.php:7 includes/post_type-store.php:9
+#: includes/post_type-store.php:37 includes/wps-admin.php:23
+msgid "Stores"
+msgstr "Tiendas"
+
+#: includes/post_type-store.php:8 includes/post_type-store.php:36
+msgid "Store"
+msgstr "Tienda"
+
+#: includes/wps-functions.php:192
+msgid "Ship to %s"
+msgstr "Enviar a %s"
+
+#: includes/post_type-store.php:14
+msgid "All Stores"
+msgstr "Tiendas"
+
+#: includes/post_type-store.php:15 includes/post_type-store.php:16
+msgid "Add New Store"
+msgstr "Agregar Tienda"
+
+#: includes/post_type-store.php:15 includes/post_type-store.php:17
+msgid "New Store"
+msgstr "Nueva Tienda"
+
+#: includes/post_type-store.php:15 includes/post_type-store.php:18
+msgid "Edit Store"
+msgstr "Editar Tienda"
+
+#: includes/post_type-store.php:15 includes/post_type-store.php:19
+msgid "Update Store"
+msgstr "Actualizar Tienda"
+
+#: includes/post_type-store.php:15 includes/post_type-store.php:20
+msgid "View Store"
+msgstr "Ver Tienda"
+
+#: includes/post_type-store.php:75
+msgid "Exclude in Checkout?"
+msgstr "Excluir del Checkout"
+
+#: includes/post_type-store.php:88
+msgid "Yes"
+msgstr "Sí"
+
+#: includes/post_type-store.php:98
+msgid "Checkout Visibility"
+msgstr "Visibilidad en Checkout"
+
+#: includes/post_type-store.php:99
+msgid "Store Fields"
+msgstr "Campos de Tiendas"
+
+#: includes/post_type-store.php:114
+msgid "Exclude store in Checkout."
+msgstr "Excluir tienda en Checkout"
+
+#: includes/post_type-store.php:141
+msgid "Store shipping cost"
+msgstr "Costos de envío"
+
+#: includes/post_type-store.php:148
+msgid "City"
+msgstr "Ciudad"
+
+#: includes/post_type-store.php:154
+msgid "Phone"
+msgstr "Teléfono"
+
+#: includes/post_type-store.php:160
+msgid "Waze"
+msgstr "Waze"
+
+#: includes/post_type-store.php:167
+msgid "Map"
+msgstr "Mapa"
+
+#: includes/post_type-store.php:174
+msgid "Short description"
+msgstr "Descripción corta"
+
+#: includes/post_type-store.php:182
+msgid "Address"
+msgstr "Dirección"
+
+#: templates/archive-store.php:56
+msgid "No stores available"
+msgstr "No hay tiendas disponibles"
+
+#: templates/widget-stores.php:15
+msgid "Shows store details in a widget section"
+msgstr "Muestra los detalles de tiendas en una sección de widget"
+
+#: templates/widget-stores.php:107
+msgid "Title"
+msgstr "Título"
+
+#: templates/widget-stores.php:111
+msgid "Stores to show"
+msgstr "Por página"
+
+#: templates/widget-stores.php:113
+msgid "Set -1 to show all stores."
+msgstr "Agregue -1 para mostrar todo"
+
+#: templates/widget-stores.php:116
+msgid "Set posts IDs"
+msgstr "Listado de IDs"
+
+#: templates/widget-stores.php:118
+msgid "Add post IDs to show followed by a comma. Ex. 01,05."
+msgstr "Post IDs separados por comas: 00, 01..."
+
+#: templates/widget-stores.php:121
+msgid "Show image?"
+msgstr "¿Mostrar imagen?"
+
+#: templates/widget-stores.php:126
+msgid "Image size"
+msgstr "Tamaño de imagen"
+
+#: templates/widget-stores.php:131
+msgid "Show in columns?"
+msgstr "¿Mostrar en columnas?"
+
+#: templates/widget-stores.php:140
+msgid "Fields"
+msgstr "Campos"
+
+#: templates/widget-stores.php:142
+msgid "Show store name?"
+msgstr "¿Mostrar nombre de tienda?"
+
+#: templates/widget-stores.php:147
+msgid "Show city?"
+msgstr "¿Mostrar ciudad?"
+
+#: templates/widget-stores.php:152
+msgid "Show direction?"
+msgstr "¿Mostrar dirección?"
+
+#: templates/widget-stores.php:157
+msgid "Show phone?"
+msgstr "¿Mostrar teléfono?"
+
+#: templates/widget-stores.php:162
+msgid "Show description?"
+msgstr "¿Mostrar descripción?"
+
+#: templates/widget-stores.php:167
+msgid "Show waze?"
+msgstr "¿Mostrar enlace de Waze?"
+
+#: templates/vc_stores.php:51
+msgid "Show as grid?"
+msgstr "¿Mostrar como grilla?"
+
+#: templates/vc_stores.php:55
+msgid "Otherwise it'll appear as listing."
+msgstr "De lo contrario aparecerá como listado."
+
+#: templates/vc_stores.php:59
+msgid "Items per row"
+msgstr "Ítems por fila"
+
+#: templates/vc_stores.php:69
+msgid "Available in grid style."
+msgstr "Disponible en estilo de grilla"
+
+#: templates/vc_stores.php:125 templates/vc_stores.php:127
+msgid "Icon background"
+msgstr "Fondo de ícono"
+
+#: templates/vc_stores.php:128 templates/vc_stores.php:134
+#: templates/vc_stores.php:136
+msgid "Icon color"
+msgstr "Color de ícono"

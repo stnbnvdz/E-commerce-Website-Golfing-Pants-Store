@@ -1,0 +1,390 @@
+msgid ""
+msgstr ""
+"Project-Id-Version: Suppliers Manager for Woocommerce\n"
+"POT-Creation-Date: 2018-12-06 10:53+0100\n"
+"PO-Revision-Date: 2018-12-06 10:54+0100\n"
+"Last-Translator: \n"
+"Language-Team: \n"
+"Language: fr\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=2; plural=(n > 1);\n"
+"X-Generator: Poedit 2.2\n"
+"X-Poedit-Basepath: ..\n"
+"X-Poedit-Flags-xgettext: --add-comments=translators:\n"
+"X-Poedit-WPHeader: suppliers-manager-for-woocommerce.php\n"
+"X-Poedit-SourceCharset: UTF-8\n"
+"X-Poedit-KeywordsList: __;_e;_n:1,2;_x:1,2c;_ex:1,2c;_nx:4c,1,2;esc_attr__;"
+"esc_attr_e;esc_attr_x:1,2c;esc_html__;esc_html_e;esc_html_x:1,2c;_n_noop:1,2;"
+"_nx_noop:3c,1,2;__ngettext_noop:1,2\n"
+"X-Poedit-SearchPath-0: .\n"
+"X-Poedit-SearchPathExcluded-0: *.js\n"
+
+#: includes/admin/editor.class.php:45
+msgid "Supplier informations"
+msgstr "Informations fournisseur"
+
+#: includes/admin/editor.class.php:48
+msgid "Supplier products"
+msgstr "Produits fournisseurs"
+
+#: includes/admin/editor.class.php:59
+msgid "Supplier name"
+msgstr "Nom du fournisseur"
+
+#: includes/admin/editor.class.php:70
+msgid "Save"
+msgstr "Sauvegarder"
+
+#: includes/admin/editor.class.php:84 includes/admin/editor.class.php:90
+msgid "Business name"
+msgstr "Raison sociale"
+
+#: includes/admin/editor.class.php:94 includes/admin/editor.class.php:100
+msgid "Website"
+msgstr "Site web"
+
+#: includes/admin/editor.class.php:104 includes/admin/editor.class.php:110
+#: includes/admin/editor.class.php:138 includes/admin/editor.class.php:144
+msgid "Email"
+msgstr "Courriel"
+
+#: includes/admin/editor.class.php:114 includes/admin/editor.class.php:120
+#: includes/admin/editor.class.php:148 includes/admin/editor.class.php:154
+msgid "Phone"
+msgstr "Téléphone"
+
+#: includes/admin/editor.class.php:125
+msgid "Direct contact"
+msgstr "Personne à contacter"
+
+#: includes/admin/editor.class.php:128 includes/admin/editor.class.php:134
+msgid "Contact name"
+msgstr "Nom"
+
+#: includes/admin/editor.class.php:159
+msgid "Address"
+msgstr "Adresse"
+
+#: includes/admin/editor.class.php:162 includes/admin/editor.class.php:168
+msgid "Street"
+msgstr "Rue"
+
+#: includes/admin/editor.class.php:172 includes/admin/editor.class.php:178
+msgid "Zipcode"
+msgstr "Code postal"
+
+#: includes/admin/editor.class.php:182 includes/admin/editor.class.php:188
+msgid "City"
+msgstr "Ville"
+
+#: includes/admin/editor.class.php:192 includes/admin/editor.class.php:198
+msgid "State"
+msgstr "Etat"
+
+#: includes/admin/editor.class.php:202 includes/admin/editor.class.php:208
+msgid "Country"
+msgstr "Pays"
+
+#: includes/admin/editor.class.php:213
+msgid "More"
+msgstr "Plus"
+
+#: includes/admin/editor.class.php:216 includes/admin/editor.class.php:222
+msgid "Delivery time"
+msgstr "Temps de livraison"
+
+#: includes/admin/editor.class.php:226 includes/admin/editor.class.php:232
+msgid "Free delivery"
+msgstr "Livraison gratuite"
+
+#: includes/admin/editor.class.php:236 includes/admin/editor.class.php:240
+msgid "Comment"
+msgstr "Commentaire"
+
+#: includes/admin/editor.class.php:321
+msgid "SKU"
+msgstr "UGS"
+
+#: includes/admin/editor.class.php:322
+msgid "Product"
+msgstr "Produit"
+
+#: includes/admin/editor.class.php:323
+msgid "Stock"
+msgstr "Stock"
+
+#: includes/admin/editor.class.php:324 includes/admin/wc-products.class.php:90
+msgid "Supplier price"
+msgstr "Prix fournisseur"
+
+#: includes/admin/editor.class.php:325
+msgid "Sale price"
+msgstr "Prix de vente"
+
+#: includes/admin/editor.class.php:326 includes/admin/wc-product.class.php:157
+#: includes/admin/wc-products.class.php:91
+msgid "Packaging"
+msgstr "Colisage"
+
+#: includes/admin/editor.class.php:341
+msgid "<i class=\"dashicons dashicons-warning\"></i>"
+msgstr "<i class=\"dashicons dashicons-warning\"></i>"
+
+#. Plugin URI of the plugin/theme
+#: includes/admin/editor.class.php:344 includes/admin/editor.class.php:351
+#: includes/admin/editor.class.php:357 includes/admin/editor.class.php:363
+#: includes/admin/wc-product.class.php:55
+#: includes/supplier-post-type.class.php:95
+msgid "-"
+msgstr "-"
+
+#: includes/admin/editor.class.php:375
+msgid "No product linked to this supplier…"
+msgstr "Aucun produit lié à ce fournisseur…"
+
+#: includes/admin/editor.class.php:376
+msgid "Browse products"
+msgstr "Parcourir les produits"
+
+#: includes/admin/menu.class.php:33 includes/supplier-post-type.class.php:46
+#: includes/supplier-post-type.class.php:54
+msgid "All suppliers"
+msgstr "Tous les fournisseurs"
+
+#: includes/admin/menu.class.php:34 includes/supplier-post-type.class.php:48
+msgid "Suppliers"
+msgstr "Fournisseurs"
+
+#: includes/admin/menu.class.php:46 includes/admin/menu.class.php:47
+msgid "Get PRO version"
+msgstr "Obtenez la version PRO"
+
+#: includes/admin/menu.class.php:68
+msgid "No supplier…"
+msgstr "Aucun fournisseur…"
+
+#: includes/admin/menu.class.php:70
+msgid "Create a supplier"
+msgstr "Créer un fournisseur"
+
+#: includes/admin/menu.class.php:85
+msgid "Get the PRO version of this plugin"
+msgstr "Obtenir la version PRO de ce plugin"
+
+#: includes/admin/menu.class.php:87
+msgid "Improve your business with premium features"
+msgstr "Boostez votre business avec des fonctionnalités Premium"
+
+#: includes/admin/menu.class.php:88
+msgid ""
+"We provide an extended version of this plugin for Woocommerce users who want "
+"to go further in their suppliers management. We work a lot to add some "
+"valuable features."
+msgstr ""
+"Nous fournissons une version étendue de ce plugin pour les utilisateurs "
+"Woocommerce qui veulent aller plus loin dans leur gestion des fournisseurs. "
+"Nous travaillons beaucoup pour ajouter quelques fonctionnalités précieuses."
+
+#: includes/admin/menu.class.php:94
+msgid "Email your suppliers"
+msgstr "Envoyez des courriels à vos fournisseurs"
+
+#: includes/admin/menu.class.php:95
+msgid ""
+"Send email and follow discussion with your suppliers directly in the "
+"Wordpress administration."
+msgstr ""
+"Envoyez un courriel et suivez la discussion avec vos fournisseurs "
+"directement dans l'administration de WordPress."
+
+#: includes/admin/menu.class.php:99
+msgid "Get alerted when stocks get low"
+msgstr "Soyez alerté lorsque les stocks sont bas"
+
+#: includes/admin/menu.class.php:100
+msgid ""
+"Be sure to avoid order missing because of out-of-stock products. Get alerted "
+"when the stocks get low."
+msgstr ""
+"Assurez-vous d'éviter des défauts de commande en raison de produits hors-"
+"stock. Soyez alerté quand les stocks baissent."
+
+#: includes/admin/menu.class.php:104
+msgid "AI stocks management"
+msgstr "Gestion des stocks assistée par IA"
+
+#: includes/admin/menu.class.php:105
+msgid ""
+"Use the power of artificial intelligence to get your stock at a right level."
+msgstr ""
+"Utilisez la puissance de l'intelligence artificielle pour garder votre stock "
+"au bon niveau."
+
+#: includes/admin/menu.class.php:110
+msgid ""
+"Get a one-year license to use the PRO version of this plugin by visiting our "
+"website :"
+msgstr ""
+"Obtenez une licence d'un an pour utiliser la version PRO de ce plugin en "
+"visitant notre site Web :"
+
+#: includes/admin/menu.class.php:113
+msgid "Get a license"
+msgstr "Obtenir une licence"
+
+#: includes/admin/menu.class.php:114
+msgid "Go to the documentation"
+msgstr "Aller à la documentation"
+
+#: includes/admin/wc-product.class.php:66
+#: includes/admin/wc-products.class.php:89
+#: includes/supplier-post-type.class.php:47
+msgid "Supplier"
+msgstr "Fournisseur"
+
+#: includes/admin/wc-product.class.php:67
+msgid "Choose a supplier in the list"
+msgstr "Choisissez un fournisseur dans la liste"
+
+#: includes/admin/wc-product.class.php:85
+msgid "Oups! No supplier…"
+msgstr "Oups ! Aucun fournisseur…"
+
+#: includes/admin/wc-product.class.php:85
+msgid "add.one"
+msgstr "Ajouter"
+
+#: includes/admin/wc-product.class.php:139
+#, php-format
+msgid "Supplier price (%s)"
+msgstr "Prix fournisseur (%s)"
+
+#: includes/admin/wc-product.class.php:141
+msgid "Enter here the negotiated price with the supplier"
+msgstr "Entrez ici le prix négocié avec le fournisseur"
+
+#: includes/admin/wc-product.class.php:159
+msgid "Set the number of units in a package"
+msgstr "Définir le nombre d'unités dans un package"
+
+#: includes/admin/wc-products.class.php:49
+#: includes/admin/wc-products.class.php:143
+msgid "Set supplier"
+msgstr "Définir le fournisseur"
+
+#: includes/admin/wc-products.class.php:110
+#: includes/admin/wc-products.class.php:117
+#: includes/admin/wc-products.class.php:124
+msgid "–"
+msgstr "–"
+
+#: includes/admin/wc-products.class.php:150
+msgid "No supplier"
+msgstr "Aucun fournisseur"
+
+#: includes/admin/wc-products.class.php:174
+msgid "product.updated"
+msgid_plural "products.updated"
+msgstr[0] "Produit mis à jour"
+msgstr[1] "Produits mis à jour"
+
+#: includes/classes/notice.class.php:29
+msgid "Suppliers Manager for Woocommerce. Go Pro!"
+msgstr "Suppliers Manager for Woocommerce. Passez à la version PRO !"
+
+#: includes/classes/notice.class.php:31
+msgid "Hi"
+msgstr "Hey"
+
+#: includes/classes/notice.class.php:32
+msgid ""
+"To improve your business with premium features like sending emails to your "
+"suppliers ou receive \"almost out-of-stock\" alerts, visit our"
+msgstr ""
+"Pour améliorer votre business avec des fonctionnalités avancées comme "
+"l’envoi d’emails à vos fournisseurs et la réception d’alerte en fonction de "
+"votre stock, allez sur notre"
+
+#: includes/classes/notice.class.php:33
+msgid "Go Pro page"
+msgstr "page PRO"
+
+#: includes/supplier-post-type.class.php:49
+msgid "New"
+msgstr "Nouveau"
+
+#: includes/supplier-post-type.class.php:50
+#: includes/supplier-post-type.class.php:51
+msgid "New supplier"
+msgstr "Nouveau fournisseur"
+
+#: includes/supplier-post-type.class.php:52
+msgid "Edit"
+msgstr "Modifier"
+
+#: includes/supplier-post-type.class.php:53
+msgid "Show"
+msgstr "Afficher"
+
+#: includes/supplier-post-type.class.php:55
+msgid "Search supplier"
+msgstr "Rechercher un fournisseur"
+
+#: includes/supplier-post-type.class.php:57
+msgid "No supplier found…"
+msgstr "Aucun fournisseur trouvé…"
+
+#: includes/supplier-post-type.class.php:58
+msgid "No supplier found in trash…"
+msgstr "Aucun fournisseur trouvé dans la poubelle…"
+
+#: includes/supplier-post-type.class.php:60
+msgid "Description"
+msgstr "Description"
+
+#: includes/supplier-post-type.class.php:81
+msgid "Number of products"
+msgstr "Nombre de produits"
+
+#. Plugin Name of the plugin/theme
+msgid "Suppliers Manager for Woocommerce"
+msgstr "Suppliers Manager for Woocommerce"
+
+#. Description of the plugin/theme
+msgid ""
+"Suppliers Manager for Woocommerce allows you to list your suppliers and "
+"associate Woocommerce products to them."
+msgstr ""
+"Suppliers Manager for Woocommerce vous permet de répertorier vos "
+"fournisseurs et de leur associer à des produits Woocommerce."
+
+#. Author of the plugin/theme
+msgid "WP-Shopping"
+msgstr "WP-Shopping"
+
+#. Author URI of the plugin/theme
+msgid "https://wp-shopping.com/"
+msgstr "https://wp-shopping.com/"
+
+#~ msgid "assets/images/no_supplier.svg"
+#~ msgstr "assets/images/no_supplier.svg"
+
+#~ msgid "assets/images/go_pro_email.svg"
+#~ msgstr "assets/images/go_pro_email.svg"
+
+#~ msgid "assets/images/go_pro_alert.svg"
+#~ msgstr "assets/images/go_pro_alert.svg"
+
+#~ msgid "assets/images/go_pro_ai.svg"
+#~ msgstr "assets/images/go_pro_ai.svg"
+
+#~ msgid "No product…"
+#~ msgstr "Aucun produit..."
+
+#~ msgid "table.supplying"
+#~ msgstr "table.supplying"
+
+#~ msgid "Frédéric Galliné & Sébastien Grégoire"
+#~ msgstr "Frédéric Galliné & Sébastien Grégoire"

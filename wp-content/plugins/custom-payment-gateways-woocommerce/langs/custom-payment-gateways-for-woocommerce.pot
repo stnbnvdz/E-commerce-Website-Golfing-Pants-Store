@@ -1,0 +1,243 @@
+#: custom-payment-gateways-for-woocommerce.php:112
+#: includes/settings/class-alg-wc-custom-payment-gateways-settings-general.php:73
+msgid "Settings"
+msgstr ""
+
+#: custom-payment-gateways-for-woocommerce.php:115
+msgid "Unlock All"
+msgstr ""
+
+#: includes/class-wc-gateway-alg-custom.php:57
+#, php-format
+msgid "Any &quot;%1$s&quot; method"
+msgstr ""
+
+#: includes/class-wc-gateway-alg-custom.php:67
+#, php-format
+msgid "%1$s (#%2$s)"
+msgstr ""
+
+#: includes/class-wc-gateway-alg-custom.php:70
+#, php-format
+msgid "%1$s &ndash; %2$s"
+msgstr ""
+
+#: includes/class-wc-gateway-alg-custom.php:71
+msgid "Other locations"
+msgstr ""
+
+#: includes/class-wc-gateway-alg-custom.php:250
+#: includes/settings/class-alg-wc-custom-payment-gateways-settings-general.php:70
+msgid "Custom Gateway"
+msgstr ""
+
+#: includes/class-wc-gateway-alg-custom.php:251
+#: includes/class-wc-gateway-alg-custom.php:257
+#: includes/settings/class-wc-gateway-alg-custom-form-fields.php:24
+msgid "Custom Payment Gateway"
+msgstr ""
+
+#: includes/class-wc-gateway-alg-custom.php:258
+#: includes/settings/class-wc-gateway-alg-custom-form-fields.php:31
+msgid "Custom Payment Gateway Description."
+msgstr ""
+
+#: includes/settings/class-alg-wc-custom-payment-gateways-settings-general.php:24
+msgid "General"
+msgstr ""
+
+#: includes/settings/class-alg-wc-custom-payment-gateways-settings-general.php:37
+msgid "Custom Payment Gateways Options"
+msgstr ""
+
+#: includes/settings/class-alg-wc-custom-payment-gateways-settings-general.php:40
+msgid "Here you can set number of custom payment gateways to add."
+msgstr ""
+
+#: includes/settings/class-alg-wc-custom-payment-gateways-settings-general.php:41
+#, php-format
+msgid "After setting the number, visit %s to set each gateway's options."
+msgstr ""
+
+#: includes/settings/class-alg-wc-custom-payment-gateways-settings-general.php:43
+msgid "WooCommerce > Settings > Payments"
+msgstr ""
+
+#: includes/settings/class-alg-wc-custom-payment-gateways-settings-general.php:46
+#: includes/settings/class-alg-wc-settings-custom-payment-gateways.php:24
+msgid "Custom Payment Gateways"
+msgstr ""
+
+#: includes/settings/class-alg-wc-custom-payment-gateways-settings-general.php:47
+msgid "Enable plugin"
+msgstr ""
+
+#: includes/settings/class-alg-wc-custom-payment-gateways-settings-general.php:48
+msgid "WooCommerce Custom Payment Gateways."
+msgstr ""
+
+#: includes/settings/class-alg-wc-custom-payment-gateways-settings-general.php:54
+msgid "Number of gateways"
+msgstr ""
+
+#: includes/settings/class-alg-wc-custom-payment-gateways-settings-general.php:58
+msgid "Number of custom payments gateways to be added."
+msgstr ""
+
+#: includes/settings/class-alg-wc-custom-payment-gateways-settings-general.php:59
+msgid "Press Save changes after changing this number."
+msgstr ""
+
+#: includes/settings/class-alg-wc-custom-payment-gateways-settings-general.php:68
+msgid "Admin title for Custom Gateway"
+msgstr ""
+
+#: includes/settings/class-alg-wc-settings-custom-payment-gateways.php:38
+msgid "Reset Settings"
+msgstr ""
+
+#: includes/settings/class-alg-wc-settings-custom-payment-gateways.php:43
+msgid "Reset section settings"
+msgstr ""
+
+#: includes/settings/class-alg-wc-settings-custom-payment-gateways.php:44
+msgid "Reset"
+msgstr ""
+
+#: includes/settings/class-alg-wc-settings-custom-payment-gateways.php:83
+msgid "Your settings have been reset."
+msgstr ""
+
+#: includes/settings/class-wc-gateway-alg-custom-form-fields.php:15
+msgid "Enable/Disable"
+msgstr ""
+
+#: includes/settings/class-wc-gateway-alg-custom-form-fields.php:17
+msgid "Enable custom gateway"
+msgstr ""
+
+#: includes/settings/class-wc-gateway-alg-custom-form-fields.php:21
+msgid "Title"
+msgstr ""
+
+#: includes/settings/class-wc-gateway-alg-custom-form-fields.php:23
+msgid "This controls the title which the user sees during checkout."
+msgstr ""
+
+#: includes/settings/class-wc-gateway-alg-custom-form-fields.php:28
+msgid "Description"
+msgstr ""
+
+#: includes/settings/class-wc-gateway-alg-custom-form-fields.php:30
+msgid "Payment method description that the customer will see on your checkout."
+msgstr ""
+
+#: includes/settings/class-wc-gateway-alg-custom-form-fields.php:35
+msgid "Instructions"
+msgstr ""
+
+#: includes/settings/class-wc-gateway-alg-custom-form-fields.php:37
+msgid "Instructions that will be added to the thank you page."
+msgstr ""
+
+#: includes/settings/class-wc-gateway-alg-custom-form-fields.php:42
+msgid "Email instructions"
+msgstr ""
+
+#: includes/settings/class-wc-gateway-alg-custom-form-fields.php:44
+msgid "Instructions that will be added to the emails."
+msgstr ""
+
+#: includes/settings/class-wc-gateway-alg-custom-form-fields.php:49
+msgid "Icon"
+msgstr ""
+
+#: includes/settings/class-wc-gateway-alg-custom-form-fields.php:51
+msgid ""
+"If you want to show an image next to the gateway's name on the frontend, "
+"enter a URL to an image."
+msgstr ""
+
+#: includes/settings/class-wc-gateway-alg-custom-form-fields.php:57
+msgid "Minimum order amount"
+msgstr ""
+
+#: includes/settings/class-wc-gateway-alg-custom-form-fields.php:59
+msgid ""
+"If you want to set minimum order amount (excluding fees) to show this "
+"gateway on frontend, enter a number here. Set to 0 to disable."
+msgstr ""
+
+#: includes/settings/class-wc-gateway-alg-custom-form-fields.php:67
+msgid "Enable for shipping methods"
+msgstr ""
+
+#: includes/settings/class-wc-gateway-alg-custom-form-fields.php:71
+msgid ""
+"If gateway is only available for certain shipping methods, set it up here. "
+"Leave blank to enable for all methods."
+msgstr ""
+
+#: includes/settings/class-wc-gateway-alg-custom-form-fields.php:74
+msgid "Select shipping methods"
+msgstr ""
+
+#: includes/settings/class-wc-gateway-alg-custom-form-fields.php:77
+msgid "Accept for virtual orders"
+msgstr ""
+
+#: includes/settings/class-wc-gateway-alg-custom-form-fields.php:78
+msgid "Accept"
+msgstr ""
+
+#: includes/settings/class-wc-gateway-alg-custom-form-fields.php:79
+msgid "Accept gateway if the order is virtual."
+msgstr ""
+
+#: includes/settings/class-wc-gateway-alg-custom-form-fields.php:84
+msgid "Default order status"
+msgstr ""
+
+#: includes/settings/class-wc-gateway-alg-custom-form-fields.php:92
+msgid "Send additional emails"
+msgstr ""
+
+#: includes/settings/class-wc-gateway-alg-custom-form-fields.php:93
+#: includes/settings/class-wc-gateway-alg-custom-form-fields.php:102
+#, php-format
+msgid ""
+"This may help if you are using pending or custom default order status and "
+"not receiving %s emails."
+msgstr ""
+
+#: includes/settings/class-wc-gateway-alg-custom-form-fields.php:95
+msgid "admin new order"
+msgstr ""
+
+#: includes/settings/class-wc-gateway-alg-custom-form-fields.php:96
+msgid "Send to admin"
+msgstr ""
+
+#: includes/settings/class-wc-gateway-alg-custom-form-fields.php:101
+msgid "Send to customer"
+msgstr ""
+
+#: includes/settings/class-wc-gateway-alg-custom-form-fields.php:104
+msgid "customer processing order"
+msgstr ""
+
+#: includes/settings/class-wc-gateway-alg-custom-form-fields.php:109
+msgid "Custom return URL (Thank You page)"
+msgstr ""
+
+#: includes/settings/class-wc-gateway-alg-custom-form-fields.php:110
+msgid "URL"
+msgstr ""
+
+#: includes/settings/class-wc-gateway-alg-custom-form-fields.php:111
+msgid "Enter full URL with http(s)."
+msgstr ""
+
+#: includes/settings/class-wc-gateway-alg-custom-form-fields.php:112
+msgid "Optional. Leave blank to use default URL."
+msgstr ""

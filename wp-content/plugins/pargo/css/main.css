@@ -1,0 +1,725 @@
+/** PARGO 2.0.9 Wordpress Plugin CSS File **/
+
+.gm-style * {
+  width:auto;
+  height:auto;
+}
+.pargo-modal-container {
+    height: 800px;
+}
+
+.pargo-pid {
+    display: none;
+}.pargo-info{    display: inline-block;    height: 15px;    position: relative;    width: 20px;}.pargo-info:hover{    cursor:pointer;}.pargo-info em{    position: absolute;    border: 1px solid #7d7d7d;    right: 0;    width: 16px;    height: 16px;    border-radius: 50%;    top: 2px;	color:#7d7d7d;}.pargo-info:hover em{    color:#fff;	background:#7d7d7d;}.pargo-info em:after{    display: block;    content: "i";    position: absolute;    right: 5px;    top: -4px;    text-align: right;    font-style: normal;    font-family: "Times New Roman";    font-size: 12px;    font-weight: bold;}
+.pargo-button {
+    width: 100%;
+    text-align: center;
+    padding: 5px 12px;
+    margin: 10px 0;
+    font-weight: normal;
+	border: 1px solid #ffeb3b;	font-size:12px;	max-width:250px;	border-radius:3px;	background:#ffeb3b;	color: #000;
+}
+.pargo-button:hover {
+    background: #000;	border: 1px solid #000;	color: #fff;
+}
+.parg_inactive .pargo-button {
+    background: #f0f0f0;
+	border: 1px solid #f0f0f0;
+	color:#000;
+}
+.parg_inactive .pargo-button:hover {
+    background: #000;
+	color:#fff;
+}
+.pargo_description{
+	display: inherit;
+}
+.pargo-logo {
+    height: 20px!important;
+    margin-right: 3px;
+    margin-left: 3px;
+}
+.pargo-r img{
+	max-width:100%;
+}
+#pargo_devliery_add p{
+	margin:0px;
+}
+
+#pargo_selected_pickup_location img {
+    width: 100%!important;
+}
+
+#pargo_selected_pickup_location p:empty {
+    display: none;
+}
+
+#pick-up-point-img img:empty {
+    display: none;
+}
+
+div#pargo-modal2 {
+    z-index: 100000;
+}
+
+.modal.bs-example-modal-lg.in {
+    z-index: 100000;
+}
+
+button#pargo_what_is_this {
+    border: none;
+}
+
+.modal-backdrop {
+    display: none;
+}
+
+.pargo-cart {
+    max-width: 220px;
+}
+
+.pargo-disabled {
+    background: lightgray;
+    pointer-events: none;
+    cursor: default;
+}
+.parge_description{
+	display: inline;
+}
+.pargo_content{
+padding:20px;
+}
+#pargo_center{
+	max-width:100%;
+	display:table-cell;
+	width: 422px;
+    vertical-align: middle;
+}
+#pargo_inner,#pargo_map_inner{
+	width:422px;
+	max-width:100%;
+	border-radius:38px;
+	background:#fff;
+	color:#000;
+	font-family: Arial, Helvetica, sans-serif;
+	display:block;
+	margin: 0 auto;
+	font-size:22px;
+	position: relative;
+}
+#pargo_inner,.pargo_close,#pargo_map,.pargo_map_close{
+-webkit-box-shadow:  0px 0px 32px 0px rgba(0,0,0,0.75);
+    -moz-box-shadow: 0px 0px 32px 0px rgba(0,0,0,0.75);
+    box-shadow: 0px 0px 32px 0px rgba(0,0,0,0.75);
+}
+.pargo_close,.pargo_map_close{
+    position: absolute;
+    top: -4px;
+    background: #fff;
+    right: -7px;
+    width: 37px;
+    height: 37px;
+    border-radius: 50%;
+    line-height: 34px;
+    font-weight: bold;
+    font-size: 32px;
+    text-align: center;
+    text-indent: 0px;
+    font-family: arial,sans-serif;
+}
+.pargo_close:hover,.pargo_map_close:hover{
+    background: #000;
+	color:#fff;
+    cursor:pointer;
+}
+#pargo-not-selected,#pargo_map{
+	display:none;
+	content:"";
+	background:rgba(0,0,0,0.3);
+	position:fixed;
+	top:0;
+	bottom:0;
+	left:0;
+	right:0;
+	width:100%;
+	height:100%;
+	z-index:9999;
+	text-align:center;
+}
+#pargo-not-selected.show-warn{
+	display:table;
+}
+#pargo_map,#pargo_map_center{
+    height: 100%;
+    width: 100%;
+}
+#pargo_map_inner{
+    width: 90%;
+    height: initial;
+    bottom: 5%;
+    position: fixed;
+    top: 5%;
+    left: 5%;
+    border-radius: 30px;
+}
+#thePargoPageFrameID{
+	display:block;
+}
+.pargo_blk_title{
+background: #fff200;
+    padding: 43px 0 40px 0;
+    border-top-left-radius: 38px;
+    border-top-right-radius: 38px;
+}
+#pargo-not-selected p{
+text-align:left;
+    margin: 15px 0 20px 0;
+}
+body.pargo_map_open .page-container {
+    -ms-transform: none;
+    -webkit-transform: none;
+    transform: none;
+}
+.pargo-t-blue{
+	color: #237abf;
+    font-weight: bold;
+}
+.woocommerce ul#shipping_method #pargo-steps li {
+    text-indent: 0;
+}
+@media only screen and (min-width: 481px){
+	#thePargoPageFrameID{
+		border-radius: 20px;
+		border: 15px solid #fff;
+	}
+}
+
+
+@media only screen and (min-width: 940px) and (max-width: 1450px){
+	.pargo-modal .modal-wrap{
+		min-width:900px
+	}
+}
+@media only screen and (min-width: 769px){
+	.pargo-row{
+		display: -ms-flexbox;
+		display: flex;
+		-ms-flex-wrap: wrap;
+		flex-wrap: wrap;
+		position:relative;
+	}
+	.pargo-row:after{
+		display: block;
+		content:"";
+		position:absolute;
+		background:#005889;
+		height:2px;
+		width:100%;
+		bottom: -44px;
+	}
+	.pargo-l{
+		-ms-flex-preferred-size: 0;
+		flex-basis: 0;
+		-ms-flex-positive: 1;
+		flex-grow: 1;
+	}
+	.pargo-r{
+		width: 205px;
+		position: relative;
+	}
+	.pargo-ir{
+		width: 321px;
+	}
+	.pargo-r img{
+		position: absolute;
+		bottom: -80px;
+		right:0;
+	}
+	.pargo-t-blue{
+		margin-top: 18px;
+	}
+	#pargo-steps {
+		margin: 48px -15px 0 -15px;
+	}
+	.pargo-intro td {
+		text-align: left;
+	}
+}
+.pargo-modal{
+    z-index: 999999;
+    position: relative;
+}
+#pargo_map {
+    z-index: 999999;
+}
+@media only screen and (max-width: 848px){
+	#pargo_center,#pargo_inner {
+		width: 300px;
+	}
+	#pargo_inner {
+		font-size: 16px;
+	}
+	.pargo_blk_title {
+		padding: 23px 0 20px 0;
+	}
+	#pargo-not-selected .pargo_blk_title img {
+		max-width: 120px;
+	}
+	.pargo_close {
+		top: 0px;
+		right: -1px;
+		width: 34px;
+		height: 34px;
+		line-height: 31px;
+		font-size: 26px;
+	}
+	.pargo_map_close {
+		top: 3px;
+		right: 3px;
+		width: 25px;
+		height: 25px;
+		line-height: 23px;
+		font-size: 23px;
+		color: #000;
+	}
+	#pargo_map_inner{
+		height: 100%;
+		width: 100%;
+		top: 0;
+		left:0;
+		bottom:0;
+		border-radius:0px;
+	}
+	.woocommerce table.shop_table_responsive tr td, .woocommerce-page table.shop_table_responsive .pargo-modal tr td {
+		text-align: left!important;
+	}
+	.woocommerce-page table.shop_table_responsive .pargo-modal tr td::before {
+		display:none;
+	}
+	.pargo-modal td{
+		background-color: #fff!important;
+	}
+	.pargo-modal h1 {
+		text-align: left;
+	}
+	.pargo-r{
+		text-align: center;
+	}
+	.woocommerce .pargo-r img{
+		max-width: 100px;
+	}
+	.pargo-t-blue {
+		text-align: center;
+	}
+}
+/* Information popup */
+#pargo-point{
+     margin-top: 15px;
+     border: 1px solid #f0f0f0;
+     padding: 10px;
+     margin-bottom: 0px;
+     border-radius: 4px;
+}
+ #pargo-point strong{
+     font-weight:bold;
+}
+ .pargo-btn{
+     background-color: #f0f0f0;
+     color: #000;
+     border: 1px solid #f0f0f0;
+     padding: 8px 15px 8px 40px;
+     background-image: url(https://pargo.co.za/external_img/pargo_icn_small.png);
+     background-repeat: no-repeat;
+     background-position: 10px center;
+     border-radius: 4px;
+     display: inline-block;
+}
+ .pargo-btn:hover{
+     background-color: #237abf;
+     color: #fff;
+     border: 1px solid #237abf;
+     cursor:pointer;
+}
+ .pargo-small{
+     color:#237abf;
+     font-size:10px;
+}
+ .pargo-small:hover, .pargo-point-modal-close:hover{
+     cursor:pointer;
+}
+#pargo-point p{
+     margin: 0;
+}
+.pargo-modal .checkbox {
+     display: none;
+}
+ #pargo-steps{
+     list-style:none;
+     padding:0;
+     margin:0;
+     text-align: center;
+}
+ #pargo-steps p {
+    font-size: 14px;
+     font-weight: 400;
+     line-height: 18px;
+}
+ #pargo-steps img{
+     margin-bottom:15px;
+     max-width: 120px;
+}
+ #pargo-steps li{
+     padding:0;
+}
+ #pargo-steps strong{
+     display:block;
+     color: #237abf;
+}
+ .pargo-point-modal-close{
+     float: right;
+     font-size: 15px;
+     font-weight: bold;
+     color: #237abf;
+     border: 2px solid #237abf;
+     width: 20px;
+     height: 20px;
+     display: inline-block;
+     border-radius: 50%;
+     line-height: 18px;
+     text-align: center;
+}
+.pargo-point-modal-close:hover{
+    cursor:pointer;
+}
+.pargo-modal-insurance img{
+	max-width:100%;
+}
+.pargo-modal-insurance .pargo-row:after {
+    display: none;
+}
+#parcel_test_field{
+    display: inline-block;
+}
+.insur-info{
+    cursor: pointer;
+    color: #237abf;
+    text-decoration: underline;
+}
+.pargo-btn-y{
+    margin:25px 0 15px;
+}
+.pargo-btn-y a{
+    background: #fff200;
+    font-weight: bold;
+    color: #000;
+    padding: 10px 30px;
+    text-decoration: none;
+    border-radius: 4px;
+}
+.pargo-btn-y a:hover{
+    background: #000;
+    color: #fff;
+}
+ .what-is-this h2{
+     margin-top:0;
+}
+.pargo-intro{
+     border: none;
+     width:100%;
+}
+ .pargo-modal .modal-overlay .modal-wrap .pargo-intro tr td{
+     border: none;
+     padding: 5px 30px 15px 0;
+     line-height: 17px;
+}
+ .pargo-intro tr td:first-child{
+     color: #237abf;
+     font-weight:bold;
+     text-transform: uppercase;
+}
+/* Gray background */
+ .pargo-modal .modal-overlay {
+     opacity: 0;
+     transition: all 0.3s ease;
+     width: 50%;
+     position: absolute;
+     width: 100%;
+     height: 100%;
+     position: fixed;
+     top: 0;
+     left: 0;
+     z-index: -100;
+     transform: scale(1);
+     display: none;
+     background-color: rgba(0, 0, 0, 0.7);
+}
+ .pargo-modal h1{
+     font-size: 22px;
+     font-weight: 800;
+     color: #237abf;
+     text-transform: uppercase;
+     margin: 0 0 30px 0;
+}
+/* Box */
+.pargo-modal .modal-wrap {
+     background-color: #ddd;
+     box-shadow: 3px 3px 3px rgba(0, 0, 0, 0.2);
+     padding: 40px 50px;
+     width: 60%;
+     margin: auto;
+     align-self: flex-start;
+     border-radius: 2px;
+     transition: all 0.5s ease;
+     text-indent: 0;
+}
+.pargo-modal .modal-wrap.small {
+     width: 30%;
+}
+.pargo-modal .modal-wrap.full {
+     width: 100%;
+     height: 100%;
+}
+ .pargo-modal .modal-wrap.a-center {
+     align-self: center;
+}
+.pargo-modal .modal-wrap.from-left {
+     transform: translateX(-100%);
+}
+ .pargo-modal .modal-wrap.from-right {
+     transform: translateX(100%);
+}
+.pargo-modal .modal-wrap.from-top {
+     transform: translateY(-100%);
+}
+ .pargo-modal .modal-wrap.from-bottom {
+     transform: translateY(100%);
+}
+/* Close button */
+ .pargo-modal .modal-overlay .close {
+     position: absolute;
+     right: 10px;
+     top: 10px;
+     font-size: 40px;
+     width: 30px;
+     height: 30px;
+     color: #282c34;
+}
+ .pargo-modal .modal-overlay .close:hover {
+     cursor: pointer;
+     color: #4b5361;
+}
+.pargo-modal .o-close {
+     width: 100%;
+     height: 100%;
+     position: fixed;
+     left: 0;
+     top: 0;
+     z-index: -100;
+}
+ .pargo-modal input:checked ~ .o-close {
+     z-index: 9998;
+}
+ .pargo-modal input:checked ~ .modal-overlay {
+     transform: scale(1);
+     opacity: 1;
+     z-index: 9997;
+     overflow: auto;
+     display: flex;
+     animation-duration: 0.5s;
+     animation-name: fade-in;
+     -moz-animation-duration: 0.5s;
+     -moz-animation-name: fade-in;
+     -webkit-animation-duration: 0.5s;
+     -webkit-animation-name: fade-in;
+     padding-top: 20px;
+     padding-bottom: 20px;
+}
+ .pargo-modal input:checked ~ .modal-overlay .modal-wrap {
+     transform: translateY(0);
+     z-index: 9999;
+}
+/* Responsive Design */
+@media screen and (min-width: 1028px){
+	.pargo-modal.pargo-modal-insurance .modal-wrap {
+		width: 755px;
+	}
+}
+/* Tablet size */
+ @media (max-width: 800px) {
+     .pargo-modal .modal-wrap {
+         width: 80%;
+         padding: 20px;
+    }
+}
+/* Phone size */
+@media (max-width: 500px) {
+     .pargo-modal .modal-wrap {
+         width: 90%;
+    }
+	.insur-info {
+		margin: -5px 0 20px 28px;
+		display: block;
+	}
+	#parcel_test_field {
+		margin-bottom: 0;
+		padding-bottom: 0;
+	}
+}
+/* Fadein from display:none */
+@keyframes fade-in {
+     0% {
+         display: none;
+         opacity: 0;
+    }
+     1% {
+         display: flex;
+         opacity: 0;
+    }
+     100% {
+         display: flex;
+         opacity: 1;
+    }
+}
+@-moz-keyframes fade-in {
+     0% {
+         display: none;
+         opacity: 0;
+    }
+     1% {
+         display: flex;
+         opacity: 0;
+    }
+     100% {
+         display: flex;
+         opacity: 1;
+    }
+}
+@-webkit-keyframes fade-in {
+     0% {
+         display: none;
+         opacity: 0;
+    }
+     1% {
+         display: flex;
+         opacity: 0;
+    }
+     100% {
+         display: flex;
+         opacity: 1;
+    }
+}
+.resp-iframe {
+     display: block;
+     background: #000;
+     border: none;
+     height: 100vh;
+     width: 100%;
+     left: 0;
+     position: absolute;
+}
+@media (min-width: 320px) {
+     .pargo-modal .modal-overlay .close{
+         right: 10px;
+         top: 75px;
+         z-index: 9999;
+    }
+}
+@media (min-width: 481px) {
+    /* portrait e-readers (Nook/Kindle), smaller tablets @ 600 or @ 640 wide. */
+     .pargo-modal .modal-overlay .close{
+         right: 10px;
+         top: 75px;
+         z-index: 9999;
+    }
+}
+@media (min-width: 641px) {
+    /* portrait tablets, portrait iPad, landscape e-readers, landscape 800x480 or 854x480 phones */
+     .pargo-modal .modal-overlay .close{
+         right: 10px;
+         top: 75px;
+         z-index: 9999;
+    }
+     #pargo-steps li{
+         padding:0;
+         float:left;
+         width:33.33%;
+         position: relative;
+    }
+     #pargo-steps .step-inner{
+         padding: 0 15px;
+    }
+     #pargo-steps{
+         margin: 30px -15px 0 -15px;
+         position:relative;
+    }
+     #pargo-steps p {
+         max-width:304px;
+         margin:0 auto;
+    }
+     #pargo-steps:before{
+         display: block;
+         content: "";
+         position: absolute;
+         border-top: 6px dashed #237abf;
+         height: 6px;
+         left: 130px;
+         right: 130px;
+         top: 79px;
+    }
+}
+@media (max-width: 640px) {
+     #pargo-steps img {
+         max-width: 100px;
+         margin-top: 15px;
+    }
+}
+@media (min-width: 961px) {
+    /* tablet, landscape iPad, lo-res laptops ands desktops */
+     .pargo-modal .modal-overlay .close{
+         right: 10px;
+         top: unset;
+         z-index: 9999;
+    }
+}
+@media (min-width: 1025px) {
+    /* big landscape tablets, laptops, and desktops */
+     .pargo-modal .modal-overlay .close{
+         right: 10px;
+         top: unset;
+         z-index: 9999;
+    }
+}
+@media (min-width: 1281px) {
+    /* hi-res laptops and desktops */
+     .pargo-modal .modal-overlay .close{
+         right: 10px;
+         top: unset;
+         z-index: 9999;
+    }
+}
+.hide-pargo{
+     visibility: hidden;
+}
+.what-is-this{
+     background-color: white !important;
+}
+@media screen and (min-width: 642px) and (max-width: 1180px){
+     #pargo-steps img {
+         max-width: 130px;
+    }
+     #pargo-steps:before {
+         top: 65px;
+    }
+}
+ 
+.woocommerce .what-is-this ul#pargo-steps li {
+    padding: .25em 0 .25em 0px;
+}
+
+.woocommerce table.shop_table table.pargo-intro tr td {
+    font-weight: 100;
+}
+.woocommerce table.shop_table table.pargo-intro tr td:first-child {
+    font-weight: bold;
+}
+

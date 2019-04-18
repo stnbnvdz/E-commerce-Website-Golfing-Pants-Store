@@ -1,0 +1,103 @@
+/*	Text & color & Login form background*/
+.ui-state-default, .ui-widget-content .ui-state-default{
+	background-color: #fff;
+	border: 0px solid #c5dbec;
+	border-radius: 100%;
+	cursor: move;
+	height: 30px;
+	left: 0;
+	top: -11px;
+	position: absolute;
+	width: 30px;
+	-webkit-box-shadow: 0 1px 3px rgba(0, 0, 0, 0.4);
+	box-shadow: 0 1px 3px rgba(0, 0, 0, 0.4);
+	}
+	.ui-slider-horizontal {
+	height: .5em;
+	}
+	.ui-widget-content {
+	 border: 0px solid #a6c9e2; 
+	background: #a9acb1;
+	color: #222222;
+	}
+	.ui-widget-header {
+	border: 0px solid #4297d7;
+	background: #ef4238;
+	color: #ffffff;
+	font-weight: bold;
+	}
+	.slider-text{
+	background-color: #f7fcff !important;
+	border-radius: 5px;
+	font-size: 0.9em;
+	height: 29px;
+	padding-top: 2px;
+	text-align: center;
+	width: 55px;
+	margin-left: 25px;
+	border-color: #ffffff !important;
+	margin-right: 5px;
+	-webkit-box-shadow: inset 0 0 10px rgba(0, 0, 0, 0.15);
+	box-shadow: inset 0 0 10px rgba(0, 0, 0, 0.15) !important;
+	}
+	.slider-text-span{
+	font-size:17px;
+	}
+	
+	
+	/*	Help & Rate */
+	
+	.acl-rate-us  span.dashicons{
+						width: 30px;
+						height: 30px;
+						}
+						.acl-rate-us  span.dashicons-star-filled:before {
+						content: "\f155";
+						font-size: 30px;
+						}
+						.acl-rate-us {
+							color : #FBD229 !important;
+							padding-top:5px !important;
+						}
+						.acl-rate-us span{
+							display:inline-block;
+						}
+						.acl-rate{
+							color:#fff;
+							margin-top:10px !important;
+							margin-bottom:5px !important;
+						}
+						
+						
+	/*	content */						
+::-webkit-scrollbar{
+		width: 12px;
+	}
+	::-webkit-scrollbar-track{
+		outline: 0px solid slategrey;
+		 background: transparent;
+		border-radius: 0px;
+		border:0px
+	}
+	::-webkit-scrollbar-thumb{
+		border-radius: 0px;
+		background: rgba(71,204,232,0.9);
+		border:0px;
+		outline: 0px solid slategrey;
+	}
+	a:focus{
+		-webkit-box-shadow: none !important;
+		box-shadow:none !important;
+	}
+	.wp-color-result{
+		height:24px;
+	}
+	.wp-color-result:hover{
+		text-underline:none;
+	}
+	#TB_ajaxContent{
+		width:100% !important;
+	}
+	#TB_window {
+		height: auto !important;
+	}

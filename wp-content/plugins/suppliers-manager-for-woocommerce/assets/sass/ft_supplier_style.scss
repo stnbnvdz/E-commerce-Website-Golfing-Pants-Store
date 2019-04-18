@@ -1,0 +1,69 @@
+/**
+ * SCSS file
+ */
+
+ // @import 'compass/reset';
+ @import 'bourbon', 'neat';
+ @import 'variables', 'mixins';
+ @import 'components/message';
+ @import 'components/label';
+ @import 'components/form';
+
+ .card {
+     background: $color-white;
+     @include border-radius(5px);
+     @include box-shadow(0 5px 10px rgba(44, 62, 79, 0.2));
+     @include padding(20px);
+ }
+
+ .no-supplier-card {
+     @extend .card;
+     @include display(grid);
+     grid-template-columns: 3fr 2fr;
+     grid-gap: 10px;
+     @include margin(100px auto);
+     @include size(600px null);
+     align-items: center;
+
+     .content {
+         text-align: center;
+         @include padding(null 20px);
+
+         h3 {
+             @include margin(0px 0px 15px 0px);
+             font-weight: 700;
+             font-size: 24px;
+             color: $color-violet-2;
+             text-transform: uppercase;
+         }
+
+         p {
+             @include margin(0px 0px 10px 0px);
+             font-size: 16px;
+             color: $color-violet-2;
+         }
+
+         a {
+             @include display(block);
+             background: $color-violet-1;
+             @include size(auto 50px);
+             @include border-radius(50px / 2);
+             color: $color-white;
+             text-decoration: none;
+             line-height: 50px;
+             font-size: 16px;
+             font-weight: 700;
+             text-transform: uppercase;
+             @include transition(all 0.2s ease-out);
+
+             &:hover {
+                 background: $color-violet-2;
+                 @include box-shadow(0 5px 10px rgba(44, 62, 79, 0.2));
+             }
+         }
+     }
+ }
+
+// Pages
+@import 'pages/editor';
+@import 'pages/go_pro';
