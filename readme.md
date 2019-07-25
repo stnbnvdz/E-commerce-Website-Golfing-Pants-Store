@@ -29,10 +29,4 @@ Password: admin
 
 This project is licensed under the MIT License - see the [LICENSE](https://en.wikipedia.org/wiki/MIT_License) file for details
 
-## Meet the team
 
-* **John Austin Benavidez** - [stnbnvdz](https://github.com/stnbnvdz)
-* **Dominic Alfonso**
-* **Kent Bron**
-* **Ivan Morados**
-* **Justin Purganan**
